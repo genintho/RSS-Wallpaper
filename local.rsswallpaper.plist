@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>local.rsswallpaper</string>
+        
+        <key>ProgramArguments</key>
+        <array>
+            <string>/usr/bin/php</string>
+            <string>/Applications/rssWallpaper/core.php</string>
+        </array>
+
+        <key>StandardErrorPath</key>
+        <string>/dev/null</string>
+        
+        <key>StandardOutPath</key>
+        <string>/dev/null</string>
+        
+        <key>StartInterval</key>
+        <integer>86400</integer>
+        
+        <key>RunAtLoad</key>
+        <true/>
+    </dict>
+</plist>
+
