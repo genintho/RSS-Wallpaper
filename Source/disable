@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo DISABLE DAEMON ...
+
+launchctl unload ~/Library/LaunchAgents/com.thomasgenin.rsswallpaper.plist
+
+echo SUCCESS

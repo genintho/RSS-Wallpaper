@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cp /tmp/com.thomasgenin.rsswallpaper.plist ~/Library/LaunchAgents/
+bash /Applications/rssWallpaper/enable
+
+

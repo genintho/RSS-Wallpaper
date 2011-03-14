@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 	set_time_limit(0);
 	ini_set('display_errors',true);//Just in case we get some errors, let us know....

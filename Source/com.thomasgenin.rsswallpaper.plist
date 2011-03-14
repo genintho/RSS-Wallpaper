@@ -3,8 +3,8 @@
 <plist version="1.0">
     <dict>
         <key>Label</key>
-        <string>local.rsswallpaper</string>
-        
+        <string>com.thomas.genin.rsswallpaper</string>
+
         <key>ProgramArguments</key>
         <array>
             <string>/usr/bin/php</string>
@@ -13,13 +13,13 @@
 
         <key>StandardErrorPath</key>
         <string>/dev/null</string>
-        
+
         <key>StandardOutPath</key>
         <string>/dev/null</string>
-        
+
         <key>StartInterval</key>
         <integer>86400</integer>
-        
+
         <key>RunAtLoad</key>
         <true/>
     </dict>

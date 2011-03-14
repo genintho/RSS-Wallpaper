@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo START DAEMON ...
+
+launchctl load ~/Library/LaunchAgents/com.thomasgenin.rsswallpaper.plist
+
+echo SUCCESS

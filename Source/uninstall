@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+echo UNINSTALL RSSWALLPAPER
+
+echo Delete Application Directory
+sudo rm -r /Applications/rssWallpaper
+echo Delete Binary
+sudo rm -r /usr/local/bin/rssWallpaper
+
+echo Disable Daemon
+launchctl unload ~/Library/LaunchAgents/com.thomasgenin.rsswallpaper.plist
+
+echo Delete Daemon Configuration Script
+rm ~/Library/LaunchAgents/com.thomasgenin.rsswallpaper.plist
+
+echo SUCCESS
+
+
